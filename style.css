@@ -94,7 +94,7 @@ img {
     isolation: isolate;
     background:
         linear-gradient(90deg, rgba(16, 29, 25, 0.99), rgba(16, 29, 25, 0.9) 48%, rgba(16, 29, 25, 0.46)),
-        url("images/background.png") center/cover no-repeat;
+        url("images/gallery1.jpeg") center/cover no-repeat;
     color: white;
 }
 
@@ -186,7 +186,7 @@ img {
     font-size: clamp(24px, 3.2vw, 42px);
     line-height: 1.55;
     direction: rtl;
-    text-align: left;
+    text-align: center;
     overflow-wrap: break-word;
 }
 
@@ -228,7 +228,7 @@ img {
 }
 
 .ampersand {
-    width: fit-content;
+    /* width: fit-content; */
     margin: -4px 0 -8px clamp(120px, 20vw, 240px);
     color: var(--champagne);
     font-family: 'Great Vibes', cursive;
@@ -371,7 +371,7 @@ button:hover {
     border: 1px solid var(--line);
     background:
         linear-gradient(120deg, rgba(255, 253, 247, 0.94), rgba(255, 253, 247, 0.8)),
-        url("images/background.png") center/cover;
+        url("images/gallery2.jpeg") center/cover;
     box-shadow: var(--shadow);
 }
 
@@ -773,7 +773,7 @@ button:hover {
     padding: clamp(82px, 11vw, 126px) 20px 38px;
     background:
         linear-gradient(135deg, rgba(16, 29, 25, 0.96), rgba(30, 55, 45, 0.94)),
-        url("images/background.png") center/cover;
+        url("images/gallery3.jpeg") center/cover;
     color: white;
     text-align: center;
 }
